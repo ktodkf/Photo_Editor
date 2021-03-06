@@ -40,6 +40,7 @@ describe('ImportImage function', () => {
       selectedObject: {...image},
       state: null
     };
+    // @ts-ignore
     expect(importImages(editor, image)).toStrictEqual(lastEditor);
   });
 })
